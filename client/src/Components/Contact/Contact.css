@@ -1,0 +1,71 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">');
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Erica+One|Seymour+One&display=swap');
+
+
+
+.contact{
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 60% 1fr 1fr;
+   
+}
+.contact-title {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    color: white;
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    z-index: 2;
+    font-family: 'Erica One', cursive;
+}
+.contact-title span{
+    color: #ffb677;
+}
+.contact-image {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    
+}
+.contact-image img{
+    width: 33.3%;
+    height: 100%;
+}
+.contact-number{
+    grid-row: 2;
+    grid-column: 1;
+    line-height: 2;
+    text-align:  center;
+    padding-top: 100px;
+}
+.contact-number span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact-email{
+    grid-row: 2;
+    grid-column: 2;
+    text-align:  center;
+    padding-top: 100px;
+    line-height: 2;
+}
+.contact-address{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2;
+}
+.contact-bg {
+    grid-row: 2;
+    grid-column: 1/4;
+    background-image: url(geometric-leaves.png);
+    z-index: -1;
+    height: 500px;
+}
